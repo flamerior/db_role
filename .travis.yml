@@ -14,6 +14,9 @@ before_install:
   -in secrets.tar.enc -out secrets.tar -d
 - tar xvf secrets.tar
 - echo $GCE_CREDENTIALS_FILE
+- ls
+- ls $GCE_CREDENTIALS_FILE
+- $(pwd)
 - mv google_compute_engine /home/travis/.ssh/
 - chmod 0600 /home/travis/.ssh/google_compute_engine
 env:
