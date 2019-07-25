@@ -1,4 +1,7 @@
-Role Name
+[![Build Status](https://travis-ci.com/flamerior/db_role.svg?branch=master)](https://travis-ci.com/flamerior/db_role.svg?branch=master)
+
+
+Test role db
 =========
 
 A brief description of the role goes here.
