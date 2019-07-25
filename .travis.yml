@@ -13,6 +13,7 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_3d8635d61624_key -iv $encrypted_3d8635d61624_iv
   -in secrets.tar.enc -out secrets.tar -d
 - tar xvf secrets.tar
+- echo $GCE_CREDENTIALS_FILE
 - mv google_compute_engine /home/travis/.ssh/
 - chmod 0600 /home/travis/.ssh/google_compute_engine
 env:

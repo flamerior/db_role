@@ -4,4 +4,4 @@ testinfra>=1.10
 python-vagrant>=0.5.15
 apache-libcloud>=2.5.0
 gcloud>=0.18.3
-
+paramiko>=2.6.0
